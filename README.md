@@ -11,3 +11,8 @@ Dengan modifikasi pada kedua file, aplikasi masih jalan dengan lancar. Client ma
 
 Modifikasi hanya pada server, membuat client tidak bisa menemukan server pada websocket. 
 ![Experiment 2.2 #2](experiment2-2-2.png)
+
+### Experiment 2.3
+![Experiment 2.3](experiment2-3.png)
+
+Modifikasi broadcast message server untuk include addr client yang mengirim message dengan format {addr} says: {message}.
